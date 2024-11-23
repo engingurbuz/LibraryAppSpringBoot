@@ -7,10 +7,10 @@ services:
     depends_on:
       - postgres
     environment:
-      DBURL: postgres:5432
-      DBNAME: library-app
-      DBUSERNAME: postgres
-      DBPASSWORD: postgres
+      DBURL: dpg-ct0tekt6l47c73b9g800-a.oregon-postgres.render.com
+      DBNAME: library_app_gdeb
+      DBUSERNAME: library_app_gdeb_user
+      DBPASSWORD: CBdr6f7ARfBliLyoz4W7f4uACRTpu7aG
 
   postgres:
     image: postgres
